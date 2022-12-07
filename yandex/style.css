@@ -1,0 +1,274 @@
+.example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zagolovok {
+    
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+
+}
+.logo-yandex {
+    border-radius: 50px;
+    margin-left: 20px;
+
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-between;
+
+}
+
+.mail {
+    height: 40px;
+    border-radius: 40px;
+
+
+
+}
+
+.avatar {
+    height: 50px;
+    border-radius: 40px;
+    margin-right: 5px;
+
+
+}
+.main {
+    width: 900px;
+    background-color:white;
+    /* margin-top: 300px; */
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+    padding-top: 200px;
+    
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 70px;
+    /* background-color: white; */
+    border-radius: 15px;
+    /* padding-left: 10px; */
+    justify-content: space-between;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.poisk {
+    /* box-sizing: border-box; */
+    height: 65px;
+    width: 400px;
+    padding: 0 20px; 
+    margin-left: 5px;
+    border-color: transparent;
+    /* border-width: 0; */
+    /* border: 0, */
+}
+
+.icons {
+    margin-right: 30px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    height: 70px;    
+}
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.place {
+    justify-content: space-between;
+    margin-top: 8px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.place_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pogoda {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+
+}
+
+.cloud {
+    height: 40px;
+    width: 50px;
+    padding-top: 10px;
+}
+
+.btn {
+    height: 40;
+    width: 40;
+}
+
+.text {
+    font-size: 20px;
+    border-color: white;
+    
+}
+
+input {
+    border-color: transparent;
+    margin-left: 5px ;
+    border: none;
+}
+
+input :focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.valute {
+    display: flex;
+    flex-direction: row;
+}
+.usd {
+    color:grey;
+    margin-left: 40px;
+}
+
+.usd_1 {
+    color:red;
+    margin-left: 10px;
+}
+
+.eur {
+    color: black;
+    margin-left: 20px;
+}
+
+.eur_1 {
+    color: green;
+    margin-left: 10px;
+}
+
+.rub {
+    color: black;
+    margin-left: 20px;
+}
+
+.rub_1 {
+    color: red;
+    margin-left: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.geo {
+    margin-right: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.uralsk {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    justify-content: space-between;
+
+}
+
+.news_2 {
+    height: 300px;
+    overflow: hidden;
+}
+
+.info {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    background-color: lightgray;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 300px;
+    bottom: 0;
+}
+
+.papper_1 {
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.marka{
+    align-self: top;
+    
+
+}
+
+.x-mark {
+    height: 30px;
+    width: 30px;
+}
+
+.button_1 {
+    margin-bottom: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+/* .dropdown:hover .dropdown-content {
+    display: block;
+} */
