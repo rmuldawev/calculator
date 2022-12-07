@@ -85,6 +85,7 @@ document.querySelector('.buttons').onclick = (event) => {
         finish = true;
         out.textContent = a;
         console.log(a, b, sign);
+        console.log("Hello")
     }
 
 
